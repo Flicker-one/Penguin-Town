@@ -1,0 +1,17 @@
+# Unity 缓存/临时文件
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Logs/
+/[Uu]serSettings/
+
+# 资源库缓存
+Library/
+Temp/
+
+# Unity 本地设置
+*.user
+*.userprefs
+.vs/

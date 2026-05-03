@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3825697156671189173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6907200142575896083}
+  - component: {fileID: 254323375507087134}
+  - component: {fileID: 3610787534025122671}
+  - component: {fileID: 1985999072087053986}
+  m_Layer: 0
+  m_Name: WizardHouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6907200142575896083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825697156671189173}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.0680003, y: -1.5119, z: 0.116174005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &254323375507087134
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825697156671189173}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1360072389
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 1666038319, guid: a1bd442eb32a01f47ba3dff544d7a9ed, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 9, y: 8.0625}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!58 &3610787534025122671
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825697156671189173}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 3
+--- !u!114 &1985999072087053986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825697156671189173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a657c7d0f2a0f42b159fee086e2e90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  craftingPanel: {fileID: 5877583581565508624, guid: 0434c140239f3e8408ff2b4f2ec3c738, type: 3}
+  recipes:
+  - craftResult: {fileID: 4665023637381641478, guid: 3855f23deb3fcdb4da9b93e2e2603fe8, type: 3}
+    requiredItems:
+    - {fileID: 8559511458820660564, guid: bd005d0047540a64e8b087cee321c102, type: 3}
+  - craftResult: {fileID: 6973333644232483293, guid: 1a98b6e836514d94a95260cb15b9dcde, type: 3}
+    requiredItems:
+    - {fileID: 8559511458820660564, guid: bd005d0047540a64e8b087cee321c102, type: 3}
+    - {fileID: 3245803632482668535, guid: 47a5b51ef5874b84eb95a6e8d1779389, type: 3}
+  - craftResult: {fileID: 9135425529980518056, guid: 93b8d391be36d474e99352edbe5da3b9, type: 3}
+    requiredItems:
+    - {fileID: 2967604919665494020, guid: 9c91b41091bb4864fbe268044ef94859, type: 3}
+    - {fileID: 3245803632482668535, guid: 47a5b51ef5874b84eb95a6e8d1779389, type: 3}
+  dropDownDistance: 5
+  defaultItemSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  createMenuSFX: {fileID: 8300000, guid: 7e202ad147dd5fb42a8b53ab16cc75b6, type: 3}
+  SelectedSFX: {fileID: 8300000, guid: 952a8677cf6af514094a732840e5a16a, type: 3}
+  completedSFX: {fileID: 8300000, guid: 70628011ee39a4f499a76dfbdfa169ee, type: 3}
+  failedSFX: {fileID: 8300000, guid: 72dc96601dc4120418f1edf96dce9b96, type: 3}
